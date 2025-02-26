@@ -1,0 +1,124 @@
+XLimitless - Smart Money Intelligence (SMI) Documentation
+
+Introduction
+The XLimitless - Smart Money Intelligence (SMI) indicator provides traders with detailed insights into market dynamics by tracking extreme positioning and open interest across various participant groups, including Commercials, Non-Commercials, and Retail Traders. This tool normalizes and visualizes these metrics, enabling informed decision-making based on market sentiment.
+
+Key Features
+
+Open Interest Extremes
+- Displays normalized open interest data for the selected lookback period.
+- Highlights market activity intensity, providing clues about potential reversals or trend continuations.
+
+Participant Extremes
+- Tracks Commercials (Users & Producers, Hedgers).
+- Tracks Non-Commercials (Banks, Institutional Funds, Large Traders).
+- Tracks Retail Traders (Non-Reportables, Small Traders).
+- Offers normalization to identify overbought or oversold conditions based on historical ranges.
+
+Graphical Representation
+- Uses color-coded lines for different market participants.
+- Displays extreme positioning levels for better trade decision-making.
+
+Adding the Indicator
+
+Steps to Add the Indicator in TradingView
+1. Open TradingView.
+2. Navigate to the Indicators tab.
+3. Click on “Invite Only”.
+4. Search for "XLimitless - Smart Money Intelligence (SMI)" and add it to your chart.
+5. Apply the Weekly Timeframe (SMI is optimized for weekly analysis).
+
+Customizing Inputs
+The indicator allows customization of lookback periods, visibility options, and data filters:
+
+Weeks Lookback (Normalization Period)
+- 26 weeks → 6 months
+- 52 weeks → 1 year
+- 104 weeks → 2 years
+- 156 weeks → 3 years
+- 208 weeks → 4 years
+- 260 weeks → 5 years
+
+Toggle Options
+- Hide Current Week: Exclude the current week’s data until market closure.
+- Show Open Interest Extreme: Display the Open Interest index.
+- Show Non-Reportables Extreme: Display Retail Traders' index.
+- Show Commercials Extreme: Display Commercials' index.
+- Show Non-Commercials Extreme: Display Large Speculators' index.
+
+Interpreting the Indicator
+
+Graph Color Legend
+- Green Line: Normalized index of Commercials (Users & Producers).
+- White Line: Normalized index of Non-Commercials (Large Speculators).
+- Red Line: Normalized index of Retail Traders (Non-Reportables).
+- Purple Bars: Normalized Open Interest index.
+- Horizontal Lines (20%, 80%): Mark extreme positioning zones for potential reversals.
+
+Extreme Zones Interpretation
+- 0% → Maximum Bearish Extreme
+- 20% → Bearish Extreme
+- 80% → Bullish Extreme
+- 100% → Maximum Bullish Extreme
+
+How It Works
+
+Data Normalization
+- For each market participant group, the indicator calculates net long positions:
+  - Commercials: Bullish vs. Bearish Extreme.
+  - Large Speculators: Bullish vs. Bearish Extreme.
+  - Retail Traders: Bullish vs. Bearish Extreme.
+- The data is normalized to a 0-100% scale using historical minimum and maximum values for better comparison.
+
+Open Interest Analysis
+- Open Interest data is normalized over the chosen lookback period to highlight extreme market activity levels.
+
+Dynamic Updates
+- Data updates daily or weekly (depending on the timeframe used).
+
+Best Practices for Using SMI
+
+1. Combine with Other Analysis
+- Use SMI with technical indicators (e.g., Moving Averages, Trend Following) to strengthen confluence.
+
+2. Focus on Extremes
+- Look for alignments between participant extremes and open interest shifts for high-confidence trade setups.
+
+3. Use Long-Term Trends for Market Sentiment
+- Longer lookback periods (156+ weeks) capture broader sentiment and trend shifts more effectively.
+
+Example Use Case
+
+Scenario: Analyzing Dollar Futures
+Setup:
+- Select a 52-week lookback period and enable all participant groups and Open Interest.
+
+Observation:
+- Retail Traders index is at 80% (Bearish Extreme).
+- Commercials index is at 20% (Bullish Extreme).
+- Open Interest shows a sharp decrease.
+
+Conclusion:
+- A trend reversal is imminent.
+- Consider entering a Long position, aligning with Commercial sentiment.
+- Look for a counter-pair setup such as EUR/USD or GBP/USD for additional confirmation.
+
+FAQs
+
+Why is my chart showing "No relevant data"?
+- Ensure the asset has Commitment of Traders (COT) data.
+- Verify that you are using the correct Futures instrument.
+
+What does "Hide Current Week" do?
+- It prevents incomplete weekly data from affecting analysis before the market closes.
+
+Can I use this indicator for non-Futures markets?
+- No, this indicator is specifically designed for assets with COT data (Futures & Commodities only).
+
+Support & Community
+- Discord: Join the XLimitless Community for discussions and support.
+
+Disclaimer
+- Smart Money Intelligence (SMI) is designed to track market sentiment but should not be used as a standalone timing tool.
+- Trading involves substantial risk and is not suitable for all investors.
+- Always perform your own due diligence before making any financial decisions.
