@@ -1,0 +1,42 @@
+XLimitless - Alpha Screener Documentation
+
+Introduction
+The "XLimitless - Alpha Screener" is an advanced tool designed to analyze 
+historical performance patterns for a selected month across multiple years. By 
+identifying trends and highlighting dominant positive or negative periods, this 
+screener provides actionable insights into seasonal daily market behaviors.
+
+Key Features
+- Tracks daily percentage changes for a selected month across multiple years.
+- Highlights the most dominant positive or negative trends for each day.
+- Works on Forex, Futures, Equities, Indices, Commodities, and Crypto.
+
+Customizable Timeframes
+- Analyze historical data from a user-defined year.
+- Select a specific month for seasonal performance review.
+- Presents data in a color-coded heatmap format.
+
+Setup Instructions
+1. Open TradingView.
+2. Navigate to the "Indicators" tab.
+3. Search for "XLimitless - Alpha Screener" and add it to your chart.
+4. Apply the Daily Timeframe.
+
+How It Works
+- Extracts historical data for the selected month.
+- Calculates daily percentage changes across years.
+- Aggregates and normalizes data to identify seasonal trends.
+
+Best Practices
+- Focus on high-impact days with strong historical trends.
+- Use with the XLimitless AI FutureScope for additional insights.
+- Optimize table placement for clear visibility.
+
+FAQs
+- Works only on the Daily Timeframe.
+- Supports one month at a time; multiple instances required for additional months.
+- The "Pos/Neg" column represents trend dominance.
+
+Support & Disclaimer
+- Join the Limitless community for discussions.
+- This tool provides insights but does not guarantee future market behavior.
