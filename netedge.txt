@@ -1,0 +1,128 @@
+XLimitless - NetEdge Indicators (COT) Documentation
+
+Introduction
+The "XLimitless - NetEdge Indicators (COT)" series provides a granular view of 
+market positioning by focusing on three key market participant groups:
+
+- Retail Traders (Non-Reportables): Tracks the net long, short, and overall net 
+  positions of small retail participants.
+
+- Large Speculators (Non-Commercials): Highlights speculative positions taken 
+  by institutional players such as Banks, Hedge Funds, and Large Traders.
+
+- Commercials (Users & Producers): Displays hedging activities by entities that 
+  use the asset for business purposes.
+
+Each indicator in this series is designed to help traders gauge the sentiment of 
+these participant groups and identify potential market extremes.
+
+Indicators Overview
+
+1. XLimitless - NetEdge Retail (COT)
+   - Purpose: Analyzes retail trader sentiment by plotting long, short, and net 
+     positions.
+   - Displays long positions (green line), short positions (red line), and net 
+     positions (shaded area in red).
+   - Zero line for reference to indicate net neutrality.
+   - Best Use Case: Identify when retail traders are overly biased in one direction 
+     to anticipate reversals.
+
+2. XLimitless - NetEdge Large Speculators (COT)
+   - Purpose: Provides insights into the speculative activities of large market 
+     participants.
+   - Displays long positions (green line), short positions (red line), and net 
+     positions (shaded area in gray).
+   - Zero line for reference to indicate net neutrality.
+   - Best Use Case: Use as a contrarian signal when large speculators reach 
+     extreme positions.
+
+3. XLimitless - NetEdge Commercials (COT)
+   - Purpose: Tracks the hedging activities of Commercials, who typically act in 
+     the opposite direction of market trends.
+   - Displays long positions (green line), short positions (red line), and net 
+     positions (shaded area in green).
+   - Zero line for reference to indicate net neutrality.
+   - Best Use Case: Identify accumulation or distribution phases, as Commercials 
+     often signal impending reversals.
+
+Setup Instructions
+
+Adding the Indicator:
+1. Open TradingView.
+2. Navigate to the "Indicators" tab.
+3. Search for the desired “Invite Only” indicator (e.g., XLimitless - NetEdge Retail 
+   (COT)) and add it to your chart.
+4. Apply the Weekly Timeframe.
+
+Customizing Inputs:
+- Show Long Positions: Enable/disable the green line.
+- Show Short Positions: Enable/disable the red line.
+- Show Net Positions: Enable/disable the shaded area.
+
+Recommended Style:
+- Line Chart: Best for tracking trends and fluctuations over time.
+- Area: Useful for emphasizing magnitude or cumulative data.
+
+How It Works
+
+Data Source:
+The indicators utilize the Commitment of Traders (COT) Legacy reports, accessing 
+data via TradingView’s COT Library. Positions are categorized as follows:
+
+- Retail Traders (Non-Reportables): Small, non-professional traders.
+- Large Speculators (Non-Commercials): Institutional traders, hedge funds.
+- Commercials (Users & Producers): Businesses that use the asset for 
+  production or risk management.
+
+Plotting Mechanics:
+- Long Positions: Total long positions for the participant group.
+- Short Positions: Total short positions for the participant group.
+- Net Positions: Calculated as Long - Short.
+- Zero Line: Indicates neutrality in net positioning.
+
+Best Practices:
+- Use in conjunction with Technical Analysis: Combine these indicators with 
+  support/resistance levels or trend indicators for higher confidence trades.
+- Understand Positioning Dynamics: The chart visualizes the interplay between 
+  long, short, and net positions, providing insights into market sentiment.
+- Focus on Extremes: Retail Traders' high net long/short positions may signal 
+  potential trend exhaustion.
+- Regular Updates: Check data on the weekly timeframe, as COT reports are 
+  published every Friday.
+
+Example Use Case
+
+Scenario:
+You are analyzing the EUR/USD futures market and want to gauge participant 
+sentiment.
+
+Steps:
+1. Add all three NetEdge indicators to your chart and style it to your preference.
+2. Observe the net positions:
+   - Retail Traders are heavily net long.
+   - Large Speculators are net long but nearing their historical extremes.
+   - Commercials are net short, indicating potential distribution.
+3. Combine this information with price action and additional confluences.
+4. Conclusion: A reversal to the upside is likely imminent.
+
+FAQs
+
+1. Why are some plots missing?
+   - Ensure the asset you are analyzing has relevant COT data.
+
+2. How do I interpret the zero line?
+   - Positions above zero indicate net long bias, while those below zero 
+     indicate net short bias.
+
+3. Can these indicators be used for equities?
+   - No, they are specifically designed for assets with COT data (futures and 
+     commodities).
+
+Support and Community
+- Discord: Join the Limitless community for discussions and support.
+
+Disclaimer
+The NetEdge series is designed to gauge market sentiment, making it a valuable 
+tool for additional confluence. However, it is not intended to serve as a timing tool. 
+Trading involves substantial risk and is not suitable for all investors. Always perform 
+your own due diligence before making financial decisions.
