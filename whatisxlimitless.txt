@@ -1,0 +1,65 @@
+What Are X Limitless Indicators?
+
+Start learning about how XLimitless works within minutes.
+XLimitless Indicators are advanced tools designed to empower traders with 
+actionable insights into market dynamics. From analyzing Commitment of Traders 
+(COT) data to forecasting seasonal trends and tracking open interest extremes, 
+our indicators cover a broad range of trading needs.
+
+Categories of XLimitless Indicators
+
+Commitment of Traders (COT)
+- NetEdge Indicators (COT): Track sentiment and positioning for Retail, Large 
+  Speculators, and Commercial traders.
+- Commitments of Traders (COT): Comprehensive insights into market 
+  participant positions, including Long, Short, and Net positions with heatmaps.
+- Open Interest Radar: Monitor open interest levels and identify extremes for 
+  better trading decisions.
+
+Seasonality and Trends
+- AI FutureScope: Forecast future trends and seasonal patterns using historical 
+  data.
+- Alpha Screener: Analyze seasonal performance for a specific month across 
+  multiple years.
+
+Valuation and Positioning
+- Stealth Valuation Index: Compare asset valuations against benchmarks to 
+  identify overbought or oversold conditions.
+
+Setup and Usage
+- Setup Instructions: Step-by-step guide for applying indicators on 
+  TradingView.
+- Customizing Inputs: Adjust settings like lookback periods, plotting styles, and 
+  table positions.
+
+Best Practices and Support
+- Best Practices: Combine indicators with technical analysis and focus on 
+  sentiment extremes for enhanced trading strategies.
+- Example Use Cases: Explore real-world examples of each indicator in action.
+- Support and Community: Join the Limitless fam on Discord for discussions 
+  and support.
+
+Get Started in 3 Easy Steps
+
+1. Choose Your Indicator:
+   - Decide which tool fits your trading goals. For example, use the NetEdge 
+     Indicators for market sentiment or the Alpha Screener for seasonal insights.
+
+2. Add the Indicator to TradingView:
+   - Follow our step-by-step instructions to integrate the tool seamlessly.
+
+3. Analyze and Take Action:
+   - Apply the indicator to your chart, customize the settings, and use the insights 
+     to inform your trades.
+
+Quick Links:
+- COT Indicators Overview
+- Seasonality and Trends Overview
+- Setup Instructions
+- Join the Limitless fam
+
+For more details, visit:
+- [Commitment of Traders (COT)](https://www.notion.so/17f6024eb197807e8122c3373890e393#Commitment-of-Traders-COT)
+- [Seasonality and Trends](https://www.notion.so/17f6024eb197807e8122c3373890e393#Seasonality-and-Trends)
+- [Setup and Usage](https://www.notion.so/17f6024eb197807e8122c3373890e393#Setup-and-Usage)
+- [Support and Community](https://www.notion.so/17f6024eb197807e8122c3373890e393#Support-and-Community)
