@@ -1,0 +1,150 @@
+XLimitless - Open Interest Radar Documentation
+
+Introduction
+The "XLimitless - Open Interest Radar" is a powerful tool designed to track Open 
+Interest data across various futures contracts. By visualizing changes in Open 
+Interest, this indicator provides insights into market participation, helping traders 
+identify potential trends and reversals, gaining an understanding if a trend is 
+strong or weakening.
+
+Key Features
+- Open Interest Visualization: Plots Open Interest data retrieved from the Commitment 
+  of Traders (COT) Legacy reports.
+- Displays weekly changes in Open Interest, offering a clear view of market activity.
+- Simplistic Design: Provides a straightforward line plot to emphasize Open Interest 
+  dynamics. Lightweight and easy to interpret.
+- Versatility: Applicable to all assets with available COT data. Can be used alongside 
+  other indicators for a more comprehensive analysis.
+
+Setup Instructions
+
+Adding the Indicator:
+1. Open TradingView.
+2. Navigate to the "Indicators" tab.
+3. Search for "XLimitless - Open Interest Radar" and add it to your chart.
+4. Apply the Weekly Timeframe.
+
+Customizing Inputs
+- The indicator automatically fetches Open Interest data for the selected asset.
+- No additional inputs are required.
+- Adjust the style based on your preferences.
+
+How It Works
+
+Data Source:
+- The indicator retrieves Open Interest data from the Commitment of Traders (COT) 
+  Legacy reports via TradingView's COT Library.
+
+Plotting Mechanics:
+- Open Interest Line: Weekly Open Interest values are plotted as a continuous line.
+- The line’s color and style are customizable through the script but fixed in the 
+  default version.
+
+Best Practices
+- Combine with Sentiment Analysis (COT): Use in conjunction with Net Edge or Smart 
+  Money Intelligence to confirm trends or reversals.
+- Monitor Spikes: Sudden increases or decreases in Open Interest may signal significant 
+  market events or changes in sentiment.
+- Use Weekly Timeframe: The indicator is optimized for weekly data, ensuring accurate 
+  and consistent readings.
+- Integrate with Other Tools: Pair this indicator with trend-following indicators or 
+  price action for enhanced decision-making (e.g., Moving Averages, Market Structure).
+
+Example Use Case
+
+Scenario:
+You are analyzing Dollar futures and want to determine if there is increasing 
+market participation.
+
+Steps:
+1. Add the "XLimitless - Open Interest Radar" to your futures chart.
+2. Observe the Open Interest line:
+   - A steady increase in Open Interest suggests rising market participation.
+   - A sudden drop might indicate positions being closed or reduced.
+3. Combine this insight with price action and volume data.
+4. Conclusion: Rising Open Interest during an uptrend confirms strength; declining 
+   Open Interest may signal a weakening trend and can lead to a reversal.
+
+Catalysts for Open Interest (OI) Drops and When to Pay Attention
+
+1. Position Liquidation:
+   - Catalyst: A significant drop in Open Interest often occurs when traders 
+     close their positions en masse. This can happen due to profit-taking after a 
+     major price move or stop-losses being triggered during rapid market 
+     reversals.
+   - When to Pay Attention: If OI drops sharply during a price increase or 
+     decrease, it may signal the end of a trend as market participants exit their 
+     positions.
+
+2. Contract Expiry:
+   - Catalyst: Open Interest typically declines as futures contracts near 
+     expiration, and traders roll their positions into the next contract or let them 
+     expire.
+   - When to Pay Attention: Monitor OI around contract expiration periods. 
+     A failure to roll positions into new contracts could indicate reduced interest 
+     in the underlying asset.
+
+3. Market Sentiment Shift:
+   - Catalyst: A sudden change in market sentiment, such as a central bank 
+     announcement or geopolitical event, can cause traders to close positions, 
+     leading to an OI drop.
+   - When to Pay Attention: Pay attention if the OI drop is accompanied by 
+     significant price volatility. This combination often reflects uncertainty or a 
+     directional shift in the market.
+
+4. Unexpected News or Events:
+   - Catalyst: Breaking news, such as regulatory changes, earnings reports, or 
+     industry-specific events, can prompt traders to reassess their positions, 
+     leading to a quick OI drop.
+   - When to Pay Attention: Sharp OI drops following unexpected events can 
+     indicate panic-driven exits or the unwinding of speculative positions.
+
+Additional Insight: Open Interest Drops in a Range-Bound Market
+
+- Catalyst: When trading occurs within a broader daily range and Open 
+  Interest (OI) is dropping, it often signals reduced market participation or 
+  commitment to positions. This suggests that traders are exiting rather than 
+  building positions, increasing the likelihood that the price will remain 
+  confined within the range rather than breaking out.
+
+- When to Pay Attention:
+  - If OI is declining while the price approaches the top or bottom of a 
+    range, it indicates lower conviction in breaking through these levels.
+  - This scenario provides a higher probability of range-bound trading, 
+    offering opportunities to enter trades near support (range bottom) or 
+    resistance (range top) with tighter risk management.
+
+Trading Strategy Tip:
+- Use this insight to look for price rejections at key levels (e.g., range boundaries) 
+  and combine it with confirmation tools like candlestick patterns or oscillators 
+  to time your entries effectively.
+
+FAQs
+
+1. Why is my chart showing "No relevant data"?
+   - Ensure the asset you are analyzing has Open Interest data in the COT 
+     Legacy reports.
+
+2. Can I use this indicator for equities?
+   - No, this indicator is designed for futures contracts with available COT data.
+
+3. How often does the data update?
+   - The data updates weekly, aligned with the release schedule of the COT reports.
+
+4. Can I use this on the Daily Timeframe?
+   - No, this indicator is specifically built for the Weekly Timeframe due to the 
+     Weekly Release of the COT reports.
+
+Support and Community
+- Discord: Join the Limitless community for discussions and support.
+
+Disclaimer
+The Open Interest Radar is a tool designed to provide insights into market 
+participation by tracking Open Interest levels; however, it does not guarantee 
+accurate predictions of market behavior. Trading involves significant risk, and 
+Open Interest trends should be used as part of a broader analysis that includes 
+other indicators and market factors. The data is based on historical information, 
+which may not account for unexpected market events or future conditions. Always 
+perform your own due diligence and consult with a financial professional before 
+making trading decisions. The user assumes full responsibility for their actions 
+and any associated risks.
