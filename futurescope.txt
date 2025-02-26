@@ -1,0 +1,92 @@
+XLimitless - AI FutureScope Documentation
+
+Introduction
+The "XLimitless - AI FutureScope" is an advanced tool that uses historical price data 
+to project potential future trends and seasonal movements. By analyzing up to 30 years 
+of daily trading data, it identifies potential pivots, trends, and reversals, providing 
+traders with actionable insights into market dynamics.
+
+Key Features
+- Uses up to 30 years of historical data to compute seasonality and potential price trends.
+- Analyzes daily trading activity for high accuracy.
+
+Setup Instructions
+
+Adding the Indicator:
+1. Open TradingView.
+2. Navigate to the "Indicators" tab.
+3. Apply the Daily Timeframe.
+4. Search for "XLimitless - AI FutureScope" and add it to your chart or move it to a new pane.
+
+Customizing Inputs
+- Lookback Period in Years: Define the historical data range (1 to 30 years).
+- Forecast Days: Set the number of future trading days to project (5 to 180 days, Default: 90).
+- Smoothing Period: Adjust the level of smoothing applied to seasonal calculations (default: 1).
+- Line Color and Width: Customize the color and thickness of the trend lines.
+
+Daily Timeframe Recommendation
+- Optimized for use on the daily timeframe for the most reliable results.
+
+How It Works
+
+Data Collection
+- The indicator collects historical data for the chosen lookback period on a daily timeframe.
+- Seasonal values are computed by dividing historical data into bins (e.g., trading days of the year).
+
+Seasonality Calculations
+- Daily Price Change: Computes the daily price change for each trading day.
+- Average Seasonal Change: Calculates the average price movement for each bin.
+- Normalization: Normalizes seasonal trends to align with the current price scale.
+
+Trend Projections
+- Smoothed seasonal trends are projected into the future based on historical patterns.
+- Potential upside and downside scenarios are highlighted using pivot labels.
+
+Trend and Pivot Detection
+- Identifies past and future trends as "Upward" or "Downward."
+- Marks pivot points ("Top Pivot" or "Bottom Pivot") based on significant seasonal changes.
+
+Best Practices
+- Use on Daily Timeframe: The indicator is optimized for daily charts to maximize accuracy and reliability.
+- Combine with Other Tools: Use in conjunction with Sentiment Analysis (COT), Valuation Measurements, and 
+  Trend Confirmation Tools (Moving Averages).
+- Focus on Forecast Days: Adjust forecast days based on your trading horizon (e.g., 90 days for 
+  medium-term analysis).
+- Leverage Pivots: Pay attention to pivot alerts to anticipate potential reversals or trend continuations.
+
+Long-term View:
+- Spot major Cycle Bottom and Cycle Top.
+
+Short-term View:
+- Spot Local Highs and Lows.
+
+FAQs
+- Why are some lines missing?
+  Ensure sufficient historical data is available for the selected lookback period.
+
+- Can I use the indicator for daily or weekly timeframes?
+  The indicator is optimized for daily charts to ensure the highest accuracy when calculating seasonal trends 
+  and future projections. While it can be applied to weekly or monthly charts, the results may not be as precise 
+  due to differences in data granularity.
+
+- How do I interpret the "Smoothing Period"?
+  The smoothing period adjusts how much noise is reduced in the projected trends. A lower smoothing period 
+  captures finer details but may appear choppy, while a higher smoothing period provides a smoother, more 
+  general trend line by averaging data over a longer range.
+
+- How does the indicator handle assets with limited historical data?
+  For assets with less historical data than the selected lookback period, the indicator uses the available data 
+  but may produce less accurate seasonal projections. For best results, choose assets with at least as much 
+  historical data as your selected lookback period.
+
+Support and Community
+- Discord: Join the Limitless community for discussions and support.
+
+Disclaimer
+The AI FutureScope is a powerful tool designed to assist in analyzing historical trends 
+and projecting potential future movements; however, it is not a guarantee of future performance 
+or market behavior. Trading involves substantial risk, and the projections provided by this tool 
+are based on historical data, which may not account for unexpected market conditions or events. 
+Always use this indicator in conjunction with other analysis methods, and conduct your own due diligence 
+before making any investment decisions. The user assumes full responsibility for their trading actions 
+and associated risks.
